@@ -4,15 +4,17 @@ package ru.freeIt.homeWork.lesson2;
 
 public class Query7 {
     public static void main(String[] args) {
-        int value = 25;
-        if(value % 10 == 1){
+        int value = 22;
+        int tmp1 = value % 10;
+        int tmp2 = (value / 10) % 10;
+        if ((tmp1 == 2 | tmp1 == 3 | tmp1 == 4) & tmp2 == 1) {
+            System.out.println(value + " программистов");
+        }else if(tmp1 == 2 | tmp1 == 3 | tmp1 == 4){
+            System.out.println(value + " программиста");
+        }else if(tmp1 == 1 & tmp2 != 1){
             System.out.println(value + " программист");
         }else {
-            if (value % 10 == 2 | value % 10 == 3 | value % 10 == 4) {
-                System.out.println(value + " программистa");
-            } else {
                 System.out.println(value + " программистов");
-            }
         }
     }
 }
