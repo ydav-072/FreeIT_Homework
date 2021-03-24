@@ -3,5 +3,6 @@ package ru.freeIt.homeWork.lesson1;
 public class Query1 {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        int b;
     }
 }
