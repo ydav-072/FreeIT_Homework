@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 public class Query2 {
     public static void main(String[] args) {
         System.out.println("Hello, Alexei!");
+        int b;
         //helloMethod();
     }
 //    public static void helloMethod(){
